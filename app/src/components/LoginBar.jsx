@@ -11,7 +11,6 @@ export function LoginBar({
   const [percentage, setPercentage] = useState(0);
 
 
-
   useEffect(() => {
     isActive ? setPercentage(100) : setPercentage(0)
   }, [isActive])
